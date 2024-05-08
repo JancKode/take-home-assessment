@@ -7,11 +7,7 @@ import { Contact } from "../types/contactTypes";
 import ViewContactModal from "../components/ViewContactModal";
 import { createClientComponentClient } from "@supabase/auth-helpers-nextjs";
 
-interface LayoutProps {
-  children: ReactNode;
-}
-
-const Layout: FC<LayoutProps> = ({ children }) => {
+export default function Layout({ children }: any) {
   const [contacts, setContacts] = useState<Contact[]>([]);
   const [showAddModal, setShowAddModal] = useState(false);
   const [selectedContact, setSelectedContact] = useState<Contact | null>(null);
@@ -117,6 +113,4 @@ const Layout: FC<LayoutProps> = ({ children }) => {
       {children}
     </div>
   );
-};
-
-export default Layout;
+}
