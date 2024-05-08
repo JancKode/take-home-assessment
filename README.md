@@ -8,7 +8,7 @@ This project is a full-stack application designed as a contact management system
 - **Supabase**
 - **Tailwind CSS**
 - **TypeScript**
-- **Vercel**
+- **Netlify**
 
 ## Prerequisites
 - Node.js (v12.x or newer)
@@ -50,10 +50,10 @@ This project is a full-stack application designed as a contact management system
 - `/packages`: Utility, validations container
 
 ## Deployment
-**Deploying on Vercel:**
+**Deploying on Netlify:**
 
-1. **Set Up Your Vercel Account**: If you haven't already, create an account at [Vercel.com](https://vercel.com).
+1. **Set Up Your Netlify Account**: If you haven't already, create an account.
 
-2. **Connect Your GitHub Repository to Vercel**: From the Vercel dashboard, import your project from GitHub by selecting "New Project", then your repository.
+2. **Connect Your GitHub Repository to Netlify**: From the Netlify dashboard, import your project from GitHub by selecting "New Project", then your repository.
 
-3. **Configure Environment Variables**: In your Vercel project settings, configure all the environment variables you have in your `.env.local` file under Settings > Environment Variables.
+3. **Configure Environment Variables**: In your Netlify project settings, configure all the environment variables you have in your `.env.local` file under Settings > Environment Variables.
